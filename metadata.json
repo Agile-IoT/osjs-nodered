@@ -1,0 +1,10 @@
+{
+  "className":  "ApplicationNodeRed",
+  "name":       "NodeRed",
+  "description":"A visual tool for wiring the Internet of Things",
+  "mime":       null,
+  "icon":       "http://192.168.10.45:1880/favicon.ico",
+  "preload":    [
+    {"src": "main.js", "type": "javascript"}
+  ]
+}
