@@ -18,7 +18,7 @@
       allow_maximize: true
     }]);
 
-    var src = document.location.protocol + "//" + document.location.host + ":1883";
+    var src = document.location.protocol + "//" + document.location.hostname + ":1880";
     this.options.src = src;
   }
 
