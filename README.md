@@ -17,11 +17,12 @@ cd ../../../
 # Add grunt if not installed already
 # sudo apt-get install grunt-cli
 
+grunt manifest config packages:muka/node-red
 grunt
-./bin/start-dev.sh
+./bin/start-dev.sh &
 
 #start nodered!
-node-red
+node-red &
 
 ```
 
