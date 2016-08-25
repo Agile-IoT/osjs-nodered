@@ -10,14 +10,14 @@ Install
 cd <OS.js source>
 
 mkdir src/packages/muka -p
-cd src/packages/muka
-git clone https://github.com/muka/osjs-nodered node-red
+cd src/packages/default
+git clone https://github.com/muka/osjs-nodered NodeRed
 cd ../../../
 
 # Add grunt if not installed already
 # sudo apt-get install grunt-cli
 
-grunt manifest config packages:muka/node-red
+grunt manifest config packages:default/NodeRed
 grunt
 ./bin/start-dev.sh &
 
