@@ -18,7 +18,7 @@
       allow_maximize: true
     }]);
 
-    var src = document.location.protocol + "//" + document.location.hostname + ":1880" + "/red-agile/?token"+localStorage.getItem("agile_token");
+    var src = document.location.protocol + "//" + document.location.hostname + ":1880" + "/red-agile/?token="+localStorage.getItem("agile_token");
     this.options.src = src;
   }
 
