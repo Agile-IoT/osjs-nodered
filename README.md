@@ -31,7 +31,3 @@ Usage
 
 Open OS.js and navigate under `Development` category of the menu, you can start node-red app from there
 
-License
----
-
-MIT
